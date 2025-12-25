@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+pandas
+pytz
+Pillow
+openpyxl
+xlrd
