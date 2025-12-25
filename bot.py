@@ -10,7 +10,12 @@ import os
 # =========================
 # SOZLAMALAR
 # =========================
-BOT_TOKEN = "8535922524:AAFlutE2gB5dDZXbf8DIQOzMQtbu7dYp2lE"
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 ADMINS = [5913958185]
 
 CHANNELS = ["@inspiringuz", "@dustov_math"]
