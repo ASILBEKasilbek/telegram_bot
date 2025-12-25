@@ -16,7 +16,7 @@ load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-ADMINS = [5913958185]
+ADMINS = [5913958185,6548615329]
 
 CHANNELS = ["@inspiringuz", "@dustov_math"]
 TZ = pytz.timezone("Asia/Tashkent")
